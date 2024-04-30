@@ -33,4 +33,5 @@ def call_sport():
 if __name__ == "__main__":
     call_sport()
 
-call_sport()
+# Remove line to avoid calling call_sport() when add.py is imported in test.py
+# call_sport()
